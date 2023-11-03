@@ -33,6 +33,13 @@ p {
   line-height: 30px;
 }
 
+footer .social-links a {
+  margin: 10px;
+  font-size: 35px;
+  transition: all 100ms ease-in-out;
+  font-weight: 400;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -73,6 +80,29 @@ p {
   padding: 120px 60px;
 }
 
+.hero {
+  padding: 80px 20px;
+}
+.project-description {
+  padding: 0;
+  text-align: center;
+}
+
+.footer {
+  padding: 40px 10px 40px 10px;
+  background-color: #0808080f;
+}
+
+.footer h2 {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.skills-used {
+  font-size: 30px;
+  margin: 10px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -81,6 +111,12 @@ p {
 
   h2 {
     font-size: 44px;
+  }
+
+  @media (max-width: 576) {
+    footer .social-links a {
+      padding: 10px 14px;
+    }
   }
 
   .hero {
